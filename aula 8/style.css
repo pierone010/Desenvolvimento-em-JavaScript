@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+--espaçamento: 20px;
+--cor-fundo: rgb(125, 140, 163);
+--fonte:"SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  --raio: 20px;
+  --espaçamento-cima: 100px;
+
+}
+
+body{
+text-align: center;
+    background-color: var(--cor-fundo);
+padding: var(--espaçamento);
+font-family: var(--fonte);
+border-radius: var(--raio);
+
+}
+
+img{
+margin-top: var(--espaçamento-cima);
+border-radius: var(--raio);
+border: solid 2px;
+/* box-shadow: 2px 2px 2px; */
+
+}
+
+input{
+border-radius: var(--raio);
+box-shadow: 0px 0px 20px;
+
+}
+
+button{
+    border-radius: var(--raio);
+    padding: 10px;
+    margin-top: 20px;
+}
